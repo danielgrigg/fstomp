@@ -13,9 +13,15 @@ options.  Basically you've got Apache ActiveMQ, which is fine if you're of the
 
 # Getting started
 
+Just open the fstomp.sln in Visual Studio 2013 and build the solution.  Alternatively
+build via msbuild.  I haven't tested xbuild to see if that works yet.
+
 FStomp produces a single FStomp.dll that you can incorporate easily in the usual way.  
 
 Nuget builds will be available very soon.
+
+If you don't have Visual Studio 2013, checkout the great 
+[FSharp.org](http://fsharp.org/use/windows/) which lists some options.
 
 
 ## Running Tests
@@ -30,5 +36,8 @@ you'd run normal NUnit tests.
 Extend fstomp beyond parsing/formatting and into a general purpose
 client library or even better a type provider. Because types are your friends.
 
+Port to Mono
+
 Copyright(C) 2014, Daniel Casimir Grigg
-http://danielgrigg.github.io
+
+[Daniel's Home](http://danielgrigg.github.io)
